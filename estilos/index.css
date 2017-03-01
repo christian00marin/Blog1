@@ -1,25 +1,31 @@
 header {
     border: solid 1px;
+    margin-bottom: 5px;
 }
 
 nav {
     border: solid 1px;
+    margin-bottom: 5px;
 }
 
 #contenido {
     border: solid 1px;
+    margin-bottom: 5px;
 }
 
 #contPri {
     border: solid 1px;
+    margin: 5px 5px 5px 5px;
 }
 
 article {
     border: solid 1px;
+    margin: 5px 5px 5px 5px;
 }
 
 #contSec {
     border: solid 1px;
+    margin: 5px 5px 5px 5px;
 }
 
 footer {
