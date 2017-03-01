@@ -1,21 +1,30 @@
+#contenido {
+    border: solid 1px;
+    width: 960px;
+    margin: 0 auto;
+}
+
 header {
     border: solid 1px;
-    margin-bottom: 5px;
+    margin: 5px 5px 5px 5px;
 }
 
 nav {
     border: solid 1px;
-    margin-bottom: 5px;
+    margin: 0px 5px 5px 5px;
 }
 
-#contenido {
+#contSection {
     border: solid 1px;
-    margin-bottom: 5px;
+    margin: 0px 5px 5px 5px;
+    overflow: hidden;
 }
 
-#contPri {
+#contPrincipal {
     border: solid 1px;
     margin: 5px 5px 5px 5px;
+    width: 700px;
+    float: left;
 }
 
 article {
@@ -23,11 +32,14 @@ article {
     margin: 5px 5px 5px 5px;
 }
 
-#contSec {
+#contSecundario {
     border: solid 1px;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 0px;
+    width: 225px;
+    float: right;
 }
 
 footer {
     border: solid 1px;
+    margin: 0px 5px 5px 5px;
 }
