@@ -1,30 +1,53 @@
 #contenido {
-    border: solid 1px;
-    width: 960px;
     margin: 0 auto;
 }
 
 header {
     border: solid 1px;
+    border-radius: 20px;
     margin: 5px 5px 5px 5px;
+    background-color: #57B08B;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 nav {
     border: solid 1px;
     margin: 0px 5px 5px 5px;
+    text-align: center;
+    background-color: #57B08B;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+nav ul {
+    margin: 3px 0px 3px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    border-style: hidden;
+    padding: 4px 4px 4px 4px;
 }
 
 #contSection {
-    border: solid 1px;
     margin: 0px 5px 5px 5px;
     overflow: hidden;
+    border-radius: 20px;
+    background-color: #57B08B;
+    color: #FFFFFF;
 }
 
 #contPrincipal {
     border: solid 1px;
     margin: 5px 5px 5px 5px;
-    width: 700px;
+    width: 75%;
     float: left;
+    border-radius: 20px;
+    background-color: #57B08B;
+    color: #FFFFFF;
+    overflow: hidden;
 }
 
 article {
@@ -32,6 +55,11 @@ article {
     margin: 5px 5px 5px 5px;
     padding: 0px 0px 0px 0px;
     overflow: hidden;
+    border-radius: 20px;
+    background-color: #57B08B;
+    color: #FFFFFF;
+    width: 98%;
+    float: left;
 }
 
 article h2 {
@@ -44,9 +72,16 @@ article h2 {
     border: solid 1px;
     margin: 2px 2px 8px 8px;
     float: left;
+    border-radius: 20px;
+    background-color: #57B08B;
+    color: #FFFFFF;
 }
+
 video {
     padding: 7px 7px 7px 7px;
+    width: 97%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .contInfo {
@@ -59,15 +94,36 @@ video {
 #contSecundario {
     border: solid 1px;
     margin: 5px 5px 5px 0px;
-    width: 225px;
-    float: right;
+    width: 23%;
+    float: left;
+    background-color: #57B08B;
+    border-radius: 20px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+figure {
+ 
+      padding: 5px 5px 5px 5px;
+      margin: 15px 5px 15px 5px;
+}
+
+img{
+    width:  100%;
+
 }
 
 footer {
     border: solid 1px;
     margin: 0px 5px 5px 5px;
+    border-radius: 20px;
+    background-color: #57B08B;
+    color: #FFFFFF;
 }
 
 p {
     text-align: center;
+}
+
+footer p {
+    margin: 0 auto;
 }
